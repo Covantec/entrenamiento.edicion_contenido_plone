@@ -20,7 +20,7 @@ La estructura general de contenidos esta confirmada por los principales archivos
 **01-brochure_plone.pdf**
   Describe los contenidos del módulo *2* de la capacitación.
 
-**02-manual-usuario-plone**
+**02-manual_plone4.pdf**
   Describe los contenidos de los módulos *1, 3, 4, 5, 6* de la capacitación. Además
   de otros temas complementarios de Plone.
 
