@@ -25,36 +25,48 @@ La estructura general de contenidos esta confirmada por los principales archivos
   de otros temas complementarios de Plone.
 
 
-Obtener y compilar la documentación
-===================================
+Obtener la documentación
+=========================
 
 El almacenamiento de este material está disponible en un repositorio Git 
 en Bitbucket.org "`entrenamiento.edicion_contenido_plone`_". Si usted tiene una
 credenciales en este servidor y desea convertirse en un colaborador ejecute 
 el siguiente comando: ::
 
-  $ git clone https://macagua@bitbucket.org/covantec/entrenamiento.edicion_contenido_plone.git
+  $ git clone https://bitbucket.org/covantec/entrenamiento.edicion_contenido_plone.git
 
-Crear entorno virtual de Python para reconstruir este proyecto: ::
 
-  # aptitude install python-setuptools git-core
-  # easy_install virtualenv
-  $ cd $HOME ; mkdir $HOME/virtualenv ; cd $HOME/virtualenv
-  $ virtualenv --python=/usr/bin/python sphinx
-  $ source virtualenv/sphinx/bin/activate
-
-Instale Sphinx: ::
-
-  (sphinx)$ easy_install Sphinx
+..
+  Obtener y compilar la documentación
+  ===================================
   
-Ahora puede generar la documentación en PDF de los módulos *1, 3, 4, 5, 6*; ejecute los siguientes comandos: ::
+  El almacenamiento de este material está disponible en un repositorio Git 
+  en Bitbucket.org "`entrenamiento.edicion_contenido_plone`_". Si usted tiene una
+  credenciales en este servidor y desea convertirse en un colaborador ejecute 
+  el siguiente comando: ::
 
-  (sphinx)$ cd entrenamiento.edicion_contenido_plone/02-manual-usuario-plone
-  (sphinx)$ make latexpdf
+    $ git clone https://bitbucket.org/covantec/entrenamiento.edicion_contenido_plone.git
 
-Ahora se puede abrir ``build/latex/ManualUsuarioPlone4.pdf`` 
-con sus programas de visor de PDF favorito (Evince, Acrobat Reader, ...)
+  Crear entorno virtual de Python para reconstruir este proyecto: ::
+  
+    # aptitude install python-setuptools git-core
+    # easy_install virtualenv
+    $ cd $HOME ; mkdir $HOME/virtualenv ; cd $HOME/virtualenv
+    $ virtualenv --python=/usr/bin/python sphinx
+    $ source virtualenv/sphinx/bin/activate
+  
+  Instale Sphinx: ::
+  
+    (sphinx)$ easy_install Sphinx
+    
+  Ahora puede generar la documentación en PDF de los módulos *1, 3, 4, 5, 6*; ejecute los siguientes comandos: ::
 
+    (sphinx)$ cd entrenamiento.edicion_contenido_plone/02-manual-usuario-plone
+    (sphinx)$ make latexpdf
+  
+  Ahora se puede abrir ``build/latex/ManualUsuarioPlone4.pdf`` 
+  con sus programas de visor de PDF favorito (Evince, Acrobat Reader, ...)
+  
 ¿Tiene alguna idea?, ¿Encontró un error? Por favor, hágalo saber registrando un `ticket de soporte`_.
 
 .. _entrenamiento.edicion_contenido_plone: https://bitbucket.org/covantec/entrenamiento.edicion_contenido_plone
