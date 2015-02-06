@@ -14,7 +14,7 @@ Estructura general
 
 La estructura general de contenidos esta confirmada por los principales archivos:
 
-**00-capacitacion_edicion_contenidos_plone.pdf**
+**00-capacitacion_edicion_contenidos_plone.odt**
   Describe el contenido de la capacitación.
 
 **01-brochure_plone.pdf**
