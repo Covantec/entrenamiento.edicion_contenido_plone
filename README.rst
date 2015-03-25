@@ -52,8 +52,8 @@ el siguiente comando: ::
     # aptitude install python-setuptools git-core
     # easy_install virtualenv
     $ cd $HOME ; mkdir $HOME/virtualenv ; cd $HOME/virtualenv
-    $ virtualenv --python=/usr/bin/python sphinx
-    $ source virtualenv/sphinx/bin/activate
+    $ virtualenv sphinx
+    $ source $HOME/virtualenv/sphinx/bin/activate
   
   Instale Sphinx: ::
   
@@ -66,7 +66,10 @@ el siguiente comando: ::
   
   Ahora se puede abrir ``build/latex/ManualUsuarioPlone4.pdf`` 
   con sus programas de visor de PDF favorito (Evince, Acrobat Reader, ...)
-  
+
+Colabora
+========
+
 ¿Tiene alguna idea?, ¿Encontró un error? Por favor, hágalo saber registrando un `ticket de soporte`_.
 
 .. _entrenamiento.edicion_contenido_plone: https://bitbucket.org/covantec/entrenamiento.edicion_contenido_plone
